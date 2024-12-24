@@ -22,5 +22,5 @@ dependencyResolutionManagement {
 rootProject.name = "DestinationApp"
 include(":automotive")
 include(":destinationapp")
-include(":common")
+include(":common:carnavigation")
 include(":common:data")

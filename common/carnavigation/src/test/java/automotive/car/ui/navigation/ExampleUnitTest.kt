@@ -1,4 +1,4 @@
-package automotive.car.ui.common
+package automotive.car.ui.navigation
 
 import org.junit.Test
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "automotive.car.ui.common"
+    namespace = "automotive.car.ui.car.navigation"
     compileSdk = 35
 
     defaultConfig {

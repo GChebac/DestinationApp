@@ -38,7 +38,7 @@ android {
 dependencies {
 
 
-    implementation(project(":common"))
+    implementation(project(":common:carnavigation"))
     implementation(libs.androidx.app.automotive)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
