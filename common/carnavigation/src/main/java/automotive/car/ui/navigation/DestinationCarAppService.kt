@@ -5,6 +5,8 @@ import androidx.car.app.CarAppService
 import androidx.car.app.Screen
 import androidx.car.app.Session
 import androidx.car.app.validation.HostValidator
+import automotive.car.ui.navigation.screen.template.examples.DestinationPaneTemplate
+import automotive.car.ui.navigation.screen.template.exampls.DestinationPlaceListMapTemplate
 import automotive.car.ui.navigation.screen.template.exampls.DestinationSignInTemplate
 
 class DestinationCarAppService : CarAppService() {
@@ -19,6 +21,6 @@ class DestinationCarAppService : CarAppService() {
 
 class DestinationSession : Session() {
     override fun onCreateScreen(intent: Intent): Screen {
-        return DestinationSignInTemplate(carContext)
+        return DestinationPlaceListMapTemplate(carContext)
     }
 }

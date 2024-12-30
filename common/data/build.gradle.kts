@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "automotive.car.ui.data"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 29
